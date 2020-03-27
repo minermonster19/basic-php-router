@@ -1,8 +1,7 @@
 <?php
 //Start a PHP session if not already started
-if(!isset($_SESSION)){ 
-    session_start(); 
-}
+if(!isset($_SESSION))
+    session_start();
 
 //Load DB Init if you want to request something in db about path
 $userConfigFile = false;
